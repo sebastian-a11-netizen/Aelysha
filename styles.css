@@ -490,3 +490,34 @@ body {
     transition-duration: .01ms !important;
   }
 }
+
+/* ---------- Música de fondo (reproductor oculto) ---------- */
+.yt-holder {
+  position: fixed; width: 200px; height: 200px; left: 0; bottom: 0;
+  opacity: 0; pointer-events: none; z-index: -1; overflow: hidden;
+}
+
+/* ---------- Pantalla de entrada (opcional) ---------- */
+.entry-gate {
+  position: fixed; inset: 0; height: 100lvh; z-index: 100; cursor: pointer;
+  display: grid; place-items: center; text-align: center;
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(80,62,140,.5), transparent 60%),
+    linear-gradient(170deg, #060919 0%, #10163a 55%, #0b0f26 100%);
+  transition: opacity 1.5s ease, visibility 1.5s;
+  -webkit-tap-highlight-color: transparent;
+}
+.entry-gate.out { opacity: 0; visibility: hidden; pointer-events: none; }
+.entry-inner { display: grid; justify-items: center; gap: 22px; animation: rise 2s .3s ease both; }
+.entry-star {
+  width: 26px; height: 26px; background: #ecd9a8;
+  clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%);
+  filter: drop-shadow(0 0 10px rgba(236,200,140,.7));
+  animation: soundPulse 2.8s ease-in-out infinite;
+}
+.entry-inner p {
+  font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 500;
+  font-size: clamp(1.15rem, 4.6vw, 1.5rem); letter-spacing: .16em;
+  color: rgba(236,217,168,.9); text-shadow: 0 0 18px rgba(236,200,140,.35);
+}
+@keyframes soundPulse { 0%,100% { opacity: .65; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.12); } }

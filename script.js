@@ -539,10 +539,6 @@ const verses = [
     reference: "Cantares 2:10"
   },
   {
-    text: "Todo lo sufre, todo lo cree, todo lo espera, todo lo soporta.",
-    reference: "1 Corintios 13:7"
-  },
-  {
     text: "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene del Señor, que hizo los cielos y la tierra.",
     reference: "Salmos 121:1-2"
   },
