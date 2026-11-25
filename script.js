@@ -59,7 +59,7 @@ const verses = [
     reference: "Cantares 1:15"
   },
   {
-    text: "No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios que te esfuerzo; siempre te ayudaré, siempre te sustentaré con la diestra de mi justicia",
+    text: "No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios que te esfuerzo; siempre te ayudaré, siempre te sustentaré con la diestra de mi justicia.",
     reference: "Isaías 41:10"
   },
   {
