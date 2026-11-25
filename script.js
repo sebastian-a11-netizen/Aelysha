@@ -15,7 +15,7 @@ const verses = [
     reference: "1 Corintios 13:13"
   },
   {
-    text: "Ponme como un sello sobre tu corazón, como una marca sobre tu brazo, porque fuerte es el amor.",
+    text: "Ponme como un sello sobre tu corazón, como un sello sobre tu brazo, porque fuerte como la muerte es el amor.",
     reference: "Cantares 8:6"
   },
   {
@@ -513,6 +513,70 @@ const verses = [
   {
     text: "¡Cuán hermosa eres, amada mía! No hay defecto en ti.",
     reference: "Cantares 4:7"
+  },
+  {
+    text: "Y esta es la confianza que tenemos en él, que si pedimos alguna cosa conforme a su voluntad, él nos oye.",
+    reference: "1 Juan 5:14"
+  },
+  {
+    text: "Sean fuertes y valientes. No teman ni tengan miedo de ellos, porque el Señor su Dios va con ustedes; no los dejará ni los abandonará.",
+    reference: "Deuteronomio 31:6"
+  },
+  {
+    text: "Cuando en mi lecho me acuerdo de ti, medito en ti durante las vigilias de la noche.",
+    reference: "Salmos 63:6"
+  },
+  {
+    text: "Te alabaré, porque formidables y maravillosas son tus obras; estoy maravillado.",
+    reference: "Salmos 139:14"
+  },
+  {
+    text: "Mirad cuál amor nos ha dado el Padre, para que seamos llamados hijos de Dios.",
+    reference: "1 Juan 3:1"
+  },
+  {
+    text: "Levántate, amiga mía, hermosa mía, y ven.",
+    reference: "Cantares 2:10"
+  },
+  {
+    text: "Todo lo sufre, todo lo cree, todo lo espera, todo lo soporta.",
+    reference: "1 Corintios 13:7"
+  },
+  {
+    text: "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene del Señor, que hizo los cielos y la tierra.",
+    reference: "Salmos 121:1-2"
+  },
+  {
+    text: "Aunque una madre se olvide de su hijo, yo nunca me olvidaré de ti. En las palmas de mis manos te tengo esculpida.",
+    reference: "Isaías 49:15-16"
+  },
+  {
+    text: "En el día que temo, yo en ti confío.",
+    reference: "Salmos 56:3"
+  },
+  {
+    text: "Él da esfuerzo al cansado, y multiplica las fuerzas al que no tiene ningunas.",
+    reference: "Isaías 40:29"
+  },
+  {
+    text: "Todo lo hizo hermoso en su tiempo.",
+    reference: "Eclesiastés 3:11"
+  },
+  {
+    text: "Bendito el hombre que confía en el Señor, y cuya confianza es el Señor. Será como árbol plantado junto a las aguas.",
+    reference: "Jeremías 17:7-8"
+  },
+  {
+    text: "El Señor cumplirá su propósito en mí; tu misericordia, oh Señor, es para siempre.",
+    reference: "Salmos 138:8"
+  },
+  {
+    text: "No nos cansemos de hacer el bien, porque a su tiempo cosecharemos, si no desmayamos.",
+    reference: "Gálatas 6:9"
+  },
+  {
+    text: "Todo lo verdadero, todo lo honesto, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buen nombre, en esto piensen.",
+    reference: "Filipenses 4:8"
   }
 ];
 
