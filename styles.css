@@ -337,8 +337,6 @@ body {
   text-align: center;
   border-radius: 24px;
   border: 1px solid rgba(240,222,170,.5);
-  outline: 1px solid rgba(236,217,168,.16);
-  outline-offset: 5px;
   background:
     radial-gradient(62% 52% at 50% 46%, rgba(255,228,196,.08), transparent 72%),
     radial-gradient(120% 90% at 50% 0%, rgba(240,190,170,.22), transparent 62%),
@@ -354,13 +352,6 @@ body {
     inset 0 1px 0 rgba(255,255,255,.22),
     inset 0 0 34px rgba(236,200,170,.07);
   animation: rise 2.4s 2.8s ease both, cardGlow 6s 5s ease-in-out infinite alternate;
-}
-.verse-card::before {
-  content: "";
-  position: absolute; inset: 5px;
-  border-radius: 19px;
-  border: 1px dotted rgba(236,217,168,.32);
-  pointer-events: none;
 }
 .verse-card::after {
   content: "";
@@ -405,16 +396,6 @@ body {
 
 /* detalles extra del cuadro */
 .verse-ornament-b { position: absolute; bottom: -9px; left: 50%; width: 150px; height: 19px; margin-left: -75px; overflow: visible; filter: drop-shadow(0 0 5px rgba(236,200,140,.45)); }
-.sheen {
-  position: absolute; inset: 0; border-radius: inherit; overflow: hidden; pointer-events: none;
-}
-.sheen::before {
-  content: ""; position: absolute; top: -20%; bottom: -20%; width: 38%; left: -50%;
-  background: linear-gradient(100deg, transparent, rgba(255,240,210,.13), transparent);
-  transform: skewX(-18deg);
-  animation: sheenMove 9s 5s ease-in-out infinite;
-}
-@keyframes sheenMove { 0%,55% { left: -50%; } 100% { left: 130%; } }
 .vspark {
   position: absolute; width: 7px; aspect-ratio: 1; pointer-events: none;
   background: radial-gradient(circle, #fff8e4 0 28%, rgba(255,230,180,.0) 70%);
@@ -604,9 +585,4 @@ body {
 }
 .vline.l { left: 13px; }
 .vline.r { right: 13px; }
-.vline::before {
-  content: ""; position: absolute; left: -1.5px; top: 50%; width: 4px; height: 4px; margin-top: -2px;
-  background: #f6e6bb; transform: rotate(45deg);
-  box-shadow: 0 0 6px rgba(240,205,140,.9);
-}
 @media (max-width: 600px) { .vline { top: 48px; bottom: 48px; left: auto; } .vline.l { left: 11px; } .vline.r { right: 11px; } }
